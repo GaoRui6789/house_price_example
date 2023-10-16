@@ -1,5 +1,9 @@
 name: house_price_example
 
+docker_env：
+  image:172.18.68.53/wai/cpu:py37
+
+
 entry_points:
   main:
     parameters:
