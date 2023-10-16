@@ -1,0 +1,19 @@
+name: house_price_example
+
+docker_env:
+  args:
+    cpus: 6
+  image: aiharbor.xiaobodata.com/wai/cpu:py38
+
+
+entry_points:
+  main:
+    parameters:
+      min_n: {type: int, default: "1"}
+      max_n: {type: int, default: "31"}
+      max_p: {type: int, default: "5"}
+    command: "python train_parallel.py -min={min_n} -max={max_n} --max_p={max_p}"
+  run:
+    parameters:
+      num: {type: int, default: "1"}
+    command: "python run.py -num={num}"

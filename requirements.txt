@@ -1,0 +1,6 @@
+waveletai
+numpy
+pandas
+jsonschema
+scikit-learn
+matplotlib

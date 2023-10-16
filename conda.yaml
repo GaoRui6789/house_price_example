@@ -1,0 +1,10 @@
+# mirrors
+dependencies:
+  - python=3.7.5
+  - pip:
+    # mlflow, pymysql required for wai
+    - waveletai
+    - numpy==1.16.5
+    - scikit-learn==0.22.2.post1
+    - matplotlib==3.2.1
+name: house_price_example
