@@ -1,11 +1,5 @@
 name: house_price_example
 
-docker_env:
-  args:
-    cpus: 6
-  image: aiharbor.xiaobodata.com/wai/cpu:py38
-
-
 entry_points:
   main:
     parameters:
