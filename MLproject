@@ -1,7 +1,7 @@
 name: house_price_example
 
 docker_env：
-  image:172.18.68.53/wai/cpu:py37
+  image:172.18.68.53/wai/torch-paddle:1.12.1-2.3.1-py37
 
 
 entry_points:
